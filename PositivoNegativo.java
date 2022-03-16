@@ -8,14 +8,14 @@ class PositivoNegativo {
         int num = ler.nextInt();
 
         if (num == 0) {
-            System.out.println("Zero");
+            System.out.println(num + "Zero");
         }
         else {
             if (num > 0) {
-                System.out.println("Positivo");
+                System.out.println(num + "Positivo");
             }
             else {
-                System.out.println("Negativo");
+                System.out.println(num + "Negativo");
             }
         }
     }
