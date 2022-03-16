@@ -7,11 +7,15 @@ class MaiorMenor {
         System.out.println("Informe sua idade.");
         int idade = ler.nextInt();
 
-        if (idade >= 18) {
-            System.out.println("Maior de Idade");
+        if (idade >= 1 && idade <= 120) {
+            if (idade >= 18) {
+                System.out.println("Maior de Idade");
+            }else {
+                System.out.println("Menor de Idade");
+            }
         }
         else {
-            System.out.println("Menor de Idade");
+            System.out.println("Idade Inválida");
         }
     }
 }
