@@ -31,7 +31,7 @@ class IMC {
         else if (imc >= 35 && imc <= 39.99) {
             System.out.println("Obesidade II (severa)");
         }
-        else if (imc >= 40) {
+        else {
             System.out.println("Obesidade III (morbida)");
         }
     }
